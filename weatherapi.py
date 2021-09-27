@@ -13,3 +13,4 @@ def getCityWeather(city:str):
 while True:
     city = str(input("Enter city name: "))
     print(getCityWeather(city).get("weather")[0])
+    print("success")
